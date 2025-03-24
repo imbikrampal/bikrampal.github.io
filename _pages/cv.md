@@ -9,53 +9,54 @@ redirect_from:
 
 {% include base_path %}
 
+# Bikram Pal
+
+**Email:** [bp23ms109@iiserkol.ac.in](mailto:bp23ms109@iiserkol.ac.in) •
+**Location:** IISER Kolkata, Nadia, West Bengal, India
+
 ## Education
 
-* **BS-MS in Mathematics and Statistics**, Indian Institute of Science Education and Research Kolkata (2023 - 2028) (expected)
-* **Higher Secondary Education**, Birbhum Zilla School (2021 - 2023)
+* **BS-MS in Physics (Minor in Mathematics)**, Indian Institute of Science Education and Research Kolkata  
+  (2023 – 2028, expected)
+* **Higher Secondary Education**, Birbhum Zilla School  
+  (2021 – 2023)
 
 ## Research Interests
 
-* **Mathematics**: Topology and Number Theory
-* **Statistics**: Probability Theory and Stochastic Processes
-* **Mathematical Physics**: Chaos, Fractals, and Turbulence
+* **Nonlinear Dynamics & Chaos**: Turbulence, Fractals, Fluid Dynamics  
+* **Mathematical Analysis**: Euler & Navier–Stokes Equations
 
 ## Research Experience
-* **Research Collaborator**, University of Calcutta (Jan 2025 - Present)
-  * **Topic**: Solitons and Fractional Calculus
-  * **Supervisor**: Dr. Uttam Ghosh
-* **Academic Visitor**, International Centre for Theoretical Sciences - TIFR, Bangalore (Dec 2024 - Present)
-  * **Topic**: Turbulance, Chaotic Systems and Non Linear Partial Differential Equations
-  * **Supervisor**: Dr. Samriddhi Sankar Ray
-* **Visiting Student**, Indian Institute of Technology Kharagpur (May 2024 - July 2024)
-  * **Project**: Computational Stochastic Processes
-  * **Supervisor**: Dr. Buddhananda Banerjee  
-* **Summer Student**, HBCSE-TIFR Mumbai (June 2024)
-  * Participant in NIUS 20.1 Batch of Physics
-  * Enrichment camp for undergraduate students in basic sciences
+
+* **Research Assistant**, University of Calcutta (2025)  
+  * **Topic**: Fractional Calculus and Solitons  
+  * **Advisor**: Prof. Uttam Ghosh
+* **Visitor**, International Centre for Theoretical Sciences, Bengaluru (2024–2025)  
+  * **Topic**: Turbulence and Navier–Stokes Equations  
+  * **Advisor**: Prof. Samriddhi Sankar Ray
+* **Visiting Student**, Indian Institute of Technology Kharagpur (2024)  
+  * **Project**: Computational Stochastic Processes  
+  * **Advisor**: Prof. Buddhananda Banerjee
+* **Visiting Student**, Centre for Applicable Mathematics – TIFR Bengaluru (2025)  
+  * **Topic**: Integration and Measure  
+  * **Advisor**: Prof. Debabrata Karmakar
 
 ## Awards and Honors
 
-* **NIUS 2024 Scholar**: Selected among 70 students across India
-* **DST Inspire Scholar**: Awarded to Top 1% students in India (2023)
-* **Ranked 13th** among 700k students in +2 examination (2023)
-* **Valedictorian**, Birbhum Zilla School (2023)
-* **Ranked 5th** in ADTM (Achievement Cum Diagnostic Test in Mathematics) conducted by CPSM, West Bengal (2018)
+* **NIUS Scholar (2024)**: Selected among 70 students nationwide for NIUS Physics 21.1  
+* **INSPIRE Scholarship (2023)**: Awarded to the top 1% of students in India by DST  
+* **13th Rank (2023)**: Among 700k students in the Grade 12 Board Examination  
+* **Valedictorian**, Birbhum Zilla School
 
 ## Skills
 
-* **Programming**: Python, R, MATLAB
-* **Typing & Documentation**: LaTeX, Typst, Vim
-* **Plotting Tools**: Matplotlib, Originlab
-* **Operating Systems**: Linux (Ubuntu), Windows, Mac
-* **Languages**: English, Bengali, Hindi
+* **Programming:** Python (NumPy, SymPy, Matplotlib), R  
+* **Tools & Software:** MATLAB, OriginLab, LaTeX, Typst, Vim  
+* **Operating Systems:** Linux (Ubuntu), Windows, macOS  
+* **Languages:** English, Bengali, Hindi
 
 ## Positions of Responsibility
 
-* **Core Committee Member**, Identity: Maths Club, IISER Kolkata (Present)
-* **Content Writer**, Identity: Maths Club, IISER Kolkata (2024)
-* **School Captain**, BkTPP Prabir Sengupta Vidyalaya (2018-2020)
-
-
+* **Core Committee Member & Content Writer**, Identity: Maths Club, IISER Kolkata (2025 – Present)
 
 
