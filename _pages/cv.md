@@ -41,22 +41,4 @@ redirect_from:
   * **Topic**: Integration and Measure  
   * **Advisor**: Prof. Debabrata Karmakar
 
-## Awards and Honors
-
-* **NIUS Scholar (2024)**: Selected among 70 students nationwide for NIUS Physics 21.1  
-* **INSPIRE Scholarship (2023)**: Awarded to the top 1% of students in India by DST  
-* **13th Rank (2023)**: Among 700k students in the Grade 12 Board Examination  
-* **Valedictorian**, Birbhum Zilla School
-
-## Skills
-
-* **Programming:** Python (NumPy, SymPy, Matplotlib), R  
-* **Tools & Software:** MATLAB, OriginLab, LaTeX, Typst, Vim  
-* **Operating Systems:** Linux (Ubuntu), Windows, macOS  
-* **Languages:** English, Bengali, Hindi
-
-## Positions of Responsibility
-
-* **Core Committee Member & Content Writer**, Identity: Maths Club, IISER Kolkata (2025 – Present)
-
 
