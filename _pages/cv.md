@@ -42,3 +42,13 @@ redirect_from:
   * **Advisor**: Prof. Debabrata Karmakar
 
 
+
+
+
+
+# Places who gave me opportunity
+
+![image](https://github.com/user-attachments/assets/e6c497d8-d8ea-4d32-a2d2-9f51e7483bf1)
+
+
+
