@@ -9,9 +9,6 @@ redirect_from:
 
 {% include base_path %}
 
-
-  <h1>My Research Focus</h1>
-
   <p>My research lies at the intriguing confluence of applied and pure mathematics, with a strong emphasis on the mathematical underpinnings and computational modeling of turbulence. The central focus of my work is the <strong>Navier–Stokes equations</strong>—a cornerstone of fluid dynamics and a fundamental system of partial differential equations (PDEs) that describe the motion of viscous fluid substances. While these equations appear deceptively simple, they encapsulate rich and complex behaviors that become especially prominent in turbulent regimes.</p>
 
   <h2>Turbulence and Direct Numerical Simulation (DNS)</h2>
