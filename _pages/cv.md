@@ -25,17 +25,11 @@ redirect_from:
     <figcaption>This is an example for different initial conditions inspired from different fractal structures and their numerical simulation using 2D Navier–Stokes equation.</figcaption>
   </figure>
 
-  <p>What makes this research particularly fascinating is the blend of physics, numerical analysis, and high-performance computing. The nonlinear term in the Navier–Stokes equations,</p>
+  <p>What makes this research particularly fascinating is the blend of physics, numerical analysis, and high-performance computing. The nonlinear term in the Navier–Stokes equations, <em>(u · ∇)u</em>,</p>
 
-  <p><em>(u · ∇)u</em>,</p>
+  <p>is responsible for energy transfer across scales and is also the source of mathematical complexity and chaos. I use spectral and finite-difference methods to discretize these terms and apply time integration schemes such as Runge–Kutta methods to evolve the velocity and pressure fields in time. Special care is taken in ensuring numerical stability through CFL conditions and in satisfying the incompressibility constraint <em>∇ · u = 0</em>.</p>
 
-  <p>is responsible for energy transfer across scales and is also the source of mathematical complexity and chaos. I use spectral and finite-difference methods to discretize these terms and apply time integration schemes such as Runge–Kutta methods to evolve the velocity and pressure fields in time. Special care is taken in ensuring numerical stability through CFL conditions and in satisfying the incompressibility constraint</p>
-
-  <p><em>∇ · u = 0</em>.</p>
-
-  <p>An exciting avenue in my work has been the visualization of <strong>energy spectra</strong> and <strong>intermittency</strong>. The energy spectrum <em>E(k)</em>, where <em>k</em> denotes the wavenumber, provides insights into how kinetic energy is distributed across scales. For instance, in fully developed turbulence, the inertial subrange is expected to follow the</p>
-
-  <p><em>E(k) ∼ k<sup>−5/3</sup></em></p>
+  <p>An exciting avenue in my work has been the visualization of <strong>energy spectra</strong> and <strong>intermittency</strong>. The energy spectrum <em>E(k)</em>, where <em>k</em> denotes the wavenumber, provides insights into how kinetic energy is distributed across scales. For instance, in fully developed turbulence, the inertial subrange is expected to follow the <em>E(k) ∼ k<sup>−5/3</sup></em></p>
 
   <p>power law. Deviations from this, particularly in high-resolution simulations, point to anisotropy or the effects of coherent structures.</p>
 
