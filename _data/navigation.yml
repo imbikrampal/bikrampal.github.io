@@ -17,10 +17,10 @@ main:
 #  - title: "Notes"
 #    url: /portfolio/
         
-  - title: "Blog Posts"
+  - title: "Blogs"
     url: /year-archive/
     
-  - title: "CV"
+  - title: "Vitae"
     url: /cv/
     
   - title: "Notes"
