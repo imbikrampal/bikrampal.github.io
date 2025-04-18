@@ -44,7 +44,7 @@ For example, studying weak solutions of the Navier–Stokes equations necessaril
 
 Measure theory plays a particularly central role in understanding statistical properties of turbulent flows. The idea of ergodicity—where time averages converge to ensemble averages—is deeply rooted in measure-theoretic probability. I find the use of **invariant measures** and **ergodic theorems** in the analysis of long-time behavior of turbulent systems both beautiful and practically useful, especially in the development of reduced-order models. My mathematical explorations also include the study of **operator theory** and **semigroup theory**, which appear in the analysis of linearized Navier–Stokes operators and the study of their spectrum. These tools become essential when considering the stability of steady-state solutions and for deriving estimates that are critical in proving the boundedness or blow-up of solutions.
 
-<div style="padding-top:59.951%;position:relative;"><iframe src="https://gifer.com/embed/EUjI" width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div><p><a href="https://gifer.com">via GIFER</a></p>
+<div style="padding-top:59.951%;position:relative;"><iframe width="100%" height="100%" style='position:absolute;top:0;left:0;' frameBorder="0" allowFullScreen></iframe></div></p>
 
 ## Future Directions
 
