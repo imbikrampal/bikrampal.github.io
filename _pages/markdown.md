@@ -14,7 +14,7 @@ This digital repository contains my curated collection of academic notes organiz
 </div>
 
 
-## 🍂 Autumn 2024
+## Autumn 2024
 
 [Analysis I (MA2101)](https://drive.google.com/drive/folders/1m5_ARL8ecJ52x7zaVYvMmheYP8uv3COR)
 
@@ -36,7 +36,7 @@ This digital repository contains my curated collection of academic notes organiz
 [Earth Science Laboratory (ES2105)](https://drive.google.com/drive/folders/1YJfhtnoZXeouJV53wXLlItPue3nnONMu)
 
 
-## 🌸 Spring 2024
+## Spring 2024
 
 [Mathematics II (MA1201)](https://drive.google.com/drive/folders/10cHbWbHLj9m_y8FpXQVgpWIqeBzbc1Xu)
 
@@ -58,7 +58,7 @@ This digital repository contains my curated collection of academic notes organiz
 [General Chemistry Laboratory (CH1202)](https://drive.google.com/drive/folders/1gM9KzYv6hGdJdI8K3cYF_edyFqP7tAoY)
 
 
-## 🍁 Autumn 2023
+## Autumn 2023
 
 [Mathematics I (MA1101)](https://drive.google.com/drive/folders/1p9FjYAE3mz1ztGbXZuQh7uhfKM5FocQK)
 
