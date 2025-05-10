@@ -10,6 +10,17 @@ redirect_from:
 This digital repository contains my curated collection of academic notes organized by semester. Each course link provides direct access to comprehensive learning materials. Notes marked as "typeset" have undergone rigorous verification, while classroom notes may contain occasional errors that attentive readers can identify. I welcome all corrections and suggestions at <a href="mailto:bp23ms109@iiserkol.ac.in">bp23ms109@iiserkol.ac.in</a>.
 </div>
 
+## Spring 2025
+[Analysis II (MA2201)](https://drive.google.com/drive/folders/10iR_SCkcXwT9qvVV-LE9MW9bpGYHcZgj?usp=sharing) • 
+[Probability & Statistics II (MA2204)](https://drive.google.com/drive/folders/1EhSjttDvrQyMLVEu_80380uIc5XfjCxR?usp=sharing) • 
+[Group Theory (MA2205)](https://drive.google.com/drive/folders/1tuRwkce1NBIRsIwW1n94Tjt7mYuoRLt_?usp=sharing) • 
+[Thermal Physics (PH2102)](https://drive.google.com/drive/folders/10YU_Td6mhKiVTQFp3IQh6ycwpFbfCEyq?usp=sharing) • 
+[Quantum Mechanics I (PH2101)](https://drive.google.com/drive/folders/1ULGP2Lnfu26DSt5RMXBWgvQdXIbHQ9_x?usp=sharing) • 
+[Modern Physics Laboratory (PH2203)](https://drive.google.com/drive/folders/14bJi69F90WcM6Rv25i63rqxCl6qf4sG_?usp=sharing) • 
+[Math Methods I (PH2104)](https://drive.google.com/drive/folders/1iCpmDCPDL092Uhq7S1Lir3g1PxuKlGsE?usp=sharing) • 
+[Intro to Computation (CS2201)](https://drive.google.com/drive/folders/1tVtp3q0DC8btS5DD2I5gPAOwgYZfglQ5?usp=sharing)
+
+
 ## Autumn 2024
 [Analysis I (MA2101)](https://drive.google.com/drive/folders/1m5_ARL8ecJ52x7zaVYvMmheYP8uv3COR) • 
 [Linear Algebra (MA2102)](https://drive.google.com/drive/folders/1Ns-66m5lnFXqliT88A4-hDCQ6dAjqZLJ) • 
