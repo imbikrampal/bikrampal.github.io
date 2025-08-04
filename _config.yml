@@ -13,7 +13,7 @@ title                    : "Bikram Pal"
 title_separator          : "-"
 name                     : &name "Bikram Pal"
 description              : &description "personal description"
-url                      : https://bikrampal.github.io/ 
+url                      : https://imbikrampal.github.io/bikrampal.github.io/ 
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "imbikrampal.github.io/bikrampal.github.io"
 
