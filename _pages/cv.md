@@ -23,7 +23,7 @@ I study phase transitions from both theoretical and computational perspectives, 
 
 ![Physical Quantities of a two-dimensional Ising model on a lattice of size L=256](https://github.com/user-attachments/assets/d8acd505-67f4-4f7d-8e83-5fad5f013616)
 
-*Figure: Temperature dependence of key physical quantities in the two-dimensional Ising model on a square lattice. From left to right: (1) Average energy per spin $E$, (2) Magnetization $M$, (3) Specific heat $C_v$, and (4) Magnetic susceptibility $\chi$. The sharp changes and peaks near the critical temperature $T_c \approx 2.269$ signal the continuous phase transition from a magnetically ordered to disordered phase, consistent with Onsager’s exact solution. The results were obtained from Monte Carlo simulations with lattice size $L=32$, demonstrating critical phenomena typical of second-order phase transitions in statistical physics.*
+*Figure: Temperature dependence of key physical quantities in the two-dimensional Ising model on a square lattice. From left to right: (1) Average energy per spin $E$, (2) Magnetization $M$, (3) Specific heat $C_v$, and (4) Magnetic susceptibility $\chi$. The sharp changes and peaks near the critical temperature $T_c \approx 2.269$ signal the continuous phase transition from a magnetically ordered to disordered phase, consistent with Onsager’s exact solution. The results were obtained from Monte Carlo simulations with different size, demonstrating critical phenomena typical of second-order phase transitions in statistical physics.*
 
 
 ###### Percolation Theory and Random Resistor Networks
