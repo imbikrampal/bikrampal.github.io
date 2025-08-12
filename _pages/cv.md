@@ -32,7 +32,7 @@ Percolation theory serves as a fundamental model for understanding connectivity 
 
 ![Current On Random Resistor Network](https://github.com/user-attachments/assets/bf83828b-670d-4406-843f-8bdc8ac8335e)
 
-*Figure: Spatial and spectral characteristics of voltage and current distributions in a random resistor network: (top row) voltage $V_{xy}$, current $I_{xy}$, and power spectral density $\log(1 + |I(k_x, k_y)|^2)$ on a large scale; (bottom row) corresponding data on a smaller spatial and frequency scale. The color scales highlight the spatial heterogeneity and frequency-dependent features emerging from the randomness of the resistor network.*
+*Figure: Spatial and spectral characteristics of voltage and current distributions in a random resistor network: (top row) voltage $V_{xy}$, current $I_{xy}$, and power spectral density $\log(1 + I(k_x, k_y)^2)$ on a large scale; (bottom row) corresponding data on a smaller spatial and frequency scale. The color scales highlight the spatial heterogeneity and frequency-dependent features emerging from the randomness of the resistor network.*
 
 -----
 
