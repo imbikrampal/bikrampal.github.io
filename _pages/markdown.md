@@ -7,7 +7,7 @@ redirect_from:
   - /markdown.html
 ---
 <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; border-left: 5px solid #2c3e50; margin-bottom: 20px;">
-This digital repository contains my curated collection of academic notes organized by semester. Each course link provides direct access to comprehensive learning materials. Notes marked as "typeset" have undergone rigorous verification, while classroom notes may contain occasional errors that attentive readers can identify. I welcome all corrections and suggestions at <a href="mailto:bp23ms109@iiserkol.ac.in">bp23ms109@iiserkol.ac.in</a>.
+I welcome all corrections and suggestions at <a href="mailto:bp23ms109@iiserkol.ac.in">bp23ms109@iiserkol.ac.in</a>.
 </div>
 
 ## Spring 2025
