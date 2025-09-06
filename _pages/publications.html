@@ -23,22 +23,23 @@ author_profile: true
         {% continue %}
       {% endif %}
       {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2><hr />
+        <h2 class="pub-category">{{ category[1].title }}</h2>
+        <hr />
         {% assign title_shown = true %}
       {% endunless %}
 
       <!-- Publication entry -->
       <div class="pub-entry">
-        <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+        <h3 class="pub-title">{{ post.title }}</h3>
 
         {% if post.status %}
-          <p><em>{{ post.status }}</em></p>
+          <p class="pub-status"><em>{{ post.status }}</em></p>
         {% elsif post.venue %}
-          <p>Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+          <p class="pub-venue">Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
         {% endif %}
 
         {% if post.citation %}
-          <p class="citation">Recommended citation: {{ post.citation }}</p>
+          <p class="pub-citation">Recommended citation: {{ post.citation }}</p>
         {% endif %}
       </div>
 
@@ -47,16 +48,16 @@ author_profile: true
 {% else %}
   {% for post in site.publications reversed %}
     <div class="pub-entry">
-      <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+      <h3 class="pub-title">{{ post.title }}</h3>
 
       {% if post.status %}
-        <p><em>{{ post.status }}</em></p>
+        <p class="pub-status"><em>{{ post.status }}</em></p>
       {% elsif post.venue %}
-        <p>Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+        <p class="pub-venue">Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
       {% endif %}
 
       {% if post.citation %}
-        <p class="citation">Recommended citation: {{ post.citation }}</p>
+        <p class="pub-citation">Recommended citation: {{ post.citation }}</p>
       {% endif %}
     </div>
   {% endfor %}
