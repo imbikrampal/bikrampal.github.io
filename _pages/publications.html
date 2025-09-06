@@ -14,51 +14,18 @@ author_profile: true
 
 {% include base_path %}
 
-<!-- Render by categories if defined -->
-{% if site.publication_category %}
-  {% for category in site.publication_category %}
-    {% assign title_shown = false %}
-    {% for post in site.publications reversed %}
-      {% if post.category != category[0] %}
-        {% continue %}
-      {% endif %}
-      {% unless title_shown %}
-        <h2 class="pub-category">{{ category[1].title }}</h2>
-        <hr />
-        {% assign title_shown = true %}
-      {% endunless %}
+{% for post in site.publications reversed %}
+  <div class="pub-entry">
+    <h3 class="pub-title">{{ post.title }}</h3>
 
-      <!-- Publication entry -->
-      <div class="pub-entry">
-        <h3 class="pub-title">{{ post.title }}</h3>
+    {% if post.status %}
+      <p class="pub-status"><em>{{ post.status }}</em></p>
+    {% elsif post.venue %}
+      <p class="pub-venue">Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
+    {% endif %}
 
-        {% if post.status %}
-          <p class="pub-status"><em>{{ post.status }}</em></p>
-        {% elsif post.venue %}
-          <p class="pub-venue">Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
-        {% endif %}
-
-        {% if post.citation %}
-          <p class="pub-citation">Recommended citation: {{ post.citation }}</p>
-        {% endif %}
-      </div>
-
-    {% endfor %}
-  {% endfor %}
-{% else %}
-  {% for post in site.publications reversed %}
-    <div class="pub-entry">
-      <h3 class="pub-title">{{ post.title }}</h3>
-
-      {% if post.status %}
-        <p class="pub-status"><em>{{ post.status }}</em></p>
-      {% elsif post.venue %}
-        <p class="pub-venue">Published in {{ post.venue }}, {{ post.date | date: "%Y" }}</p>
-      {% endif %}
-
-      {% if post.citation %}
-        <p class="pub-citation">Recommended citation: {{ post.citation }}</p>
-      {% endif %}
-    </div>
-  {% endfor %}
-{% endif %}
+    {% if post.citation %}
+      <p class="pub-citation">Recommended citation: {{ post.citation }}</p>
+    {% endif %}
+  </div>
+{% endfor %}
