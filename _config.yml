@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-site_theme               : "academic"
+site_theme               : "minima"
 title                    : "Bikram Pal"
 title_separator          : "-"
 name                     : &name "Bikram Pal"
