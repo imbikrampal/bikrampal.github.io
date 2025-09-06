@@ -5,5 +5,5 @@ type: "Talk"
 permalink: /talks/identity
 venue: "G02 LHC, IISER Kolkata"
 date: 2025-08-31
-location: "Mohanpur, 741246, India"
+location: "IISER Kolkata, Mohanpur, 741246, India"
 ---
