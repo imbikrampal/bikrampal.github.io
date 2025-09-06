@@ -1,23 +1,19 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the
-# server process.
-
+# ----------------------------------------
 # Basic Site Settings
-locale                   : "en-US"
-site_theme               : "minima"
-title                    : "Bikram Pal"
-title_separator          : "-"
-name                     : &name "Bikram Pal"
-description              : &description "personal description"
-url                      : https://imbikrampal.github.io/bikrampal.github.io/
-baseurl                  : ""
-repository               : "imbikrampal.github.io/bikrampal.github.io"
+# ----------------------------------------
+locale: "en-US"
+theme: minima
+title: "Bikram Pal"
+title_separator: "-"
+name: &name "Bikram Pal"
+description: &description "Statistical Physics and Turbulence"
+url: https://imbikrampal.github.io/bikrampal.github.io/
+baseurl: ""
+repository: "imbikrampal.github.io/bikrampal.github.io"
 
-# Theme colors (light palette)
+# ----------------------------------------
+# Theme Colors (Light Academic Palette)
+# ----------------------------------------
 theme_colors:
   primary: "#1a237e"
   secondary: "#3949ab"
@@ -25,140 +21,132 @@ theme_colors:
   background: "#ffffff"
   text: "#212121"
 
-# Site Author
+# ----------------------------------------
+# Author / Academic Profile
+# ----------------------------------------
 author:
-  avatar           : "profilepic.jpg"
-  name             : "Bikram Pal"
-  pronouns         : "he/him"
-  bio              : "Statistical Physics and Turbulence"
-  location         : "Kolkata, India"
-  employer         : "IISER Kolkata"
-  uri              : 
-  email            : "bikram25052005@gmail.com" 
+  avatar: "profilepic.jpg"
+  name: "Bikram Pal"
+  pronouns: "he/him"
+  bio: "Statistical Physics and Turbulence"
+  location: "Kolkata, India"
+  employer: "IISER Kolkata"
+  email: "bikram25052005@gmail.com"
 
-  # Academic websites
-  arxiv            :
-  googlescholar    :
-  impactstory      :
-  orcid            :
-  semantic         :
-  pubmed           :
-  researchgate     :
-  scopus           :
+  # Academic links
+  arxiv:
+  googlescholar:
+  impactstory:
+  orcid:
+  semantic:
+  pubmed:
+  researchgate:
+  scopus:
 
-  # Repositories and software development
-  bitbucket        :
-  codepen          :
-  dribbble         :
-  github           : "imbikrampal.github.io"
-  kaggle           :  
-  stackoverflow    :
+  # Code & Dev
+  github: "imbikrampal.github.io"
+  kaggle:
+  stackoverflow:
 
-  # Social media
-  bluesky          :
-  facebook         :
-  flickr           :
-  foursquare       :
-  goodreads        :
-  google_plus      :
-  keybase          :
-  instagram        : "dis_continuous_"
-  lastfm           :
-  linkedin         : "bikram-pal-iiserkolkata23ms"
-  mastodon         :
-  medium           :
-  pinterest        :
-  soundcloud       :
-  steam            :
-  telegram         : "Bik_u77"
-  tumblr           :
-  twitter          :
-  vine             :
-  weibo            :
-  wikipedia        :
-  xing             :
-  youtube          :
-  zhihu            :
+  # Social Media
+  instagram: "dis_continuous_"
+  linkedin: "bikram-pal-iiserkolkata23ms"
+  telegram: "Bik_u77"
 
-# Publication Category
+# ----------------------------------------
+# Publication Categories
+# ----------------------------------------
 publication_category:
   books:
-    title: 'Books'
+    title: "Books"
   manuscripts:
-    title: 'Journal Articles'
+    title: "Journal Articles"
   conferences:
-    title: 'Conference Papers'
+    title: "Conference Papers"
 
+# ----------------------------------------
 # Site Settings
-teaser                   :
-breadcrumbs              : false
-words_per_minute         : 160
-future                   : true
-read_more                : "disabled"
-talkmap_link             : false
+# ----------------------------------------
+teaser:
+breadcrumbs: false
+words_per_minute: 160
+future: true
+read_more: "disabled"
+talkmap_link: false
 
 # Footer
 footer:
   copyright: "&copy; {{ 'now' | date: '%Y' }} Bikram Pal. All Rights Reserved."
 
+# ----------------------------------------
+# Comments
+# ----------------------------------------
 comments:
-  provider               :
+  provider:
   disqus:
-    shortname            :
+    shortname:
   discourse:
-    server               :
+    server:
   facebook:
-    appid                :
-    num_posts            :
-    colorscheme          :
+    appid:
+    num_posts:
+    colorscheme:
 
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields: ['name', 'email', 'url', 'message']
+  branch: "gh-pages"
+  commitMessage: "New comment."
+  filename: comment-{@timestamp}
+  format: "yml"
+  moderation: true
+  path: "_data/comments/{options.slug}"
+  requiredFields: ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email: "md5"
   generatedFields:
     date:
-      type               : "date"
+      type: "date"
       options:
-        format           : "iso8601"
+        format: "iso8601"
 
+# ----------------------------------------
+# Atom Feed
+# ----------------------------------------
 atom_feed:
-  hide                   : false
-  path                   :
+  hide: false
+  path:
 
-# SEO Related
-google_site_verification :
-bing_site_verification   :
-alexa_site_verification  :
-yandex_site_verification :
+# ----------------------------------------
+# SEO / Social
+# ----------------------------------------
+google_site_verification:
+bing_site_verification:
+alexa_site_verification:
+yandex_site_verification:
 
-# Social Sharing
 twitter:
-  username               : &twitter
+  username: &twitter
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :
+  username:
+  app_id:
+  publisher:
+og_image:
 social:
-  type                   : Person
-  name                   : "Bikram Pal"
+  type: Person
+  name: "Bikram Pal"
   links: []
 
+# ----------------------------------------
 # Analytics
+# ----------------------------------------
 analytics:
-  provider               : "false"
+  provider: "false"
   google:
-    tracking_id          :
+    tracking_id:
 
-# Reading Files
+# ----------------------------------------
+# File Inclusion / Exclusion
+# ----------------------------------------
 include:
   - .htaccess
   - _pages
@@ -193,17 +181,19 @@ exclude:
 keep_files:
   - .git
   - .svn
+
 encoding: "utf-8"
 markdown_ext: "markdown,mkdown,mkdn,mkd,md"
 
-# Conversion
+# ----------------------------------------
+# Markdown / Kramdown
+# ----------------------------------------
 markdown: kramdown
 highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
 
-# Markdown Processing
 kramdown:
   input: GFM
   hard_wrap: false
@@ -214,7 +204,9 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
 
+# ----------------------------------------
 # Collections
+# ----------------------------------------
 collections:
   teaching:
     output: true
@@ -229,7 +221,9 @@ collections:
     output: true
     permalink: /:collection/:path/
 
-# Defaults
+# ----------------------------------------
+# Defaults for Pages and Collections
+# ----------------------------------------
 defaults:
   - scope:
       path: ""
@@ -279,16 +273,22 @@ defaults:
       author_profile: true
       share: true
 
-# Sass/SCSS
+# ----------------------------------------
+# Sass / SCSS
+# ----------------------------------------
 sass:
   sass_dir: _sass
   style: compressed
 
-# Outputting
+# ----------------------------------------
+# Output & Permalinks
+# ----------------------------------------
 permalink: /:categories/:title/
 timezone: Etc/UTC
 
+# ----------------------------------------
 # Plugins
+# ----------------------------------------
 plugins:
   - jekyll-feed
   - jekyll-gist
@@ -305,7 +305,9 @@ whitelist:
   - jekyll-redirect-from
   - jemoji
 
+# ----------------------------------------
 # Archives
+# ----------------------------------------
 category_archive:
   type: liquid
   path: /categories/
@@ -313,18 +315,21 @@ tag_archive:
   type: liquid
   path: /tags/
 
+# ----------------------------------------
 # HTML Compression
+# ----------------------------------------
 compress_html:
   clippings: all
   ignore:
     envs: development
 
-# Custom site variables
+# ----------------------------------------
+# Custom Site Variables
+# ----------------------------------------
 custom_css_vars:
   font-primary: "Roboto, sans-serif"
   font-mono: "Fira Code, monospace"
   line-height: 1.6
   max-width: 900px
 
-# Optional homepage animation
 homepage_animation: "particle-float"
