@@ -10,37 +10,50 @@ redirect_from:
 
 {% include base_path %}
 
-## Statistical Physics 
-My research lies at the intersection of statistical physics and complex systems, focusing primarily on phase transitions, critical phenomena, and transport properties in disordered media.
 
-###### Phase Transitions and Critical Phenomena
+## A. Statistical Physics
 
-I study phase transitions from both theoretical and computational perspectives, exploring universal scaling laws and critical exponents that characterize continuous transitions. This includes classical models such as the Ising model(Metropolis, Wolff cluster algorithms) and percolation, as well as more complex systems exhibiting critical phenomena informed by the renormalization group framework and finite-size scaling analysis. (Following foundational approaches by Fisher (Rev. Mod. Phys. 1974) and Binder (Rep. Prog. Phys. 1987))
+My research in statistical physics explores emergent phenomena in disordered systems, with a focus on critical phenomena, percolation, and transport in random media. At the International Centre for Theoretical Sciences (ICTS-TIFR), under Prof. Deepak Dhar, I study random resistor networks (RRNs) to understand how macroscopic transport arises from microscopic disorder. Currently, I investigate how the variance of conductance scales with system size, connecting to universal fluctuation phenomena. I also explore the effect of hyperuniform disorder, which suppresses long-wavelength fluctuations, and extend these ideas to vibrational properties, drawing parallels between current fluctuations and phonon modes in amorphous solids. This contributes modestly to understanding universality in disordered systems.
 
-![A snapshot of a two-dimensional Ising model on a lattice of size L=256](https://github.com/user-attachments/assets/57a0e53a-e04b-424f-b3d6-16b40cac08e6)
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
 
-*Figure: A snapshot of a two-dimensional Ising model on a lattice of size L=256. Each site represents a spin that can take values +1 (black dots) or -1 (white dots). The system temperature* $T$ *controls the spin configuration, and at the critical temperature* $T_c \approx 2.269$, *clusters of all sizes appear, signaling a continuous phase transition. This classical model was exactly solved by Onsager in 1944, providing a cornerstone result in statistical physics.*
+  <img src="https://github.com/user-attachments/assets/caa522b8-12c8-4ad2-af36-b4a1788de1ef" 
+       alt="GIF 1" 
+       width="400" height="400" />
 
+  <img src="https://github.com/user-attachments/assets/1c49b11d-cdfb-4f98-b930-bf24776bf09f" 
+       alt="GIF 2" 
+       width="400" height="400" />
 
-![Physical Quantities of a two-dimensional Ising model on a lattice of size L=256](https://github.com/user-attachments/assets/d8acd505-67f4-4f7d-8e83-5fad5f013616)
+</div>
 
-*Figure: Temperature dependence of key physical quantities in the two-dimensional Ising model on a square lattice. From left to right: (1) Average energy per spin $E$, (2) Magnetization $M$, (3) Specific heat $C_v$, and (4) Magnetic susceptibility $\chi$. The sharp changes and peaks near the critical temperature $T_c \approx 2.269$ signal the continuous phase transition from a magnetically ordered to disordered phase, consistent with Onsager’s exact solution. The results were obtained from Monte Carlo simulations with different size, demonstrating critical phenomena typical of second-order phase transitions in statistical physics.*
-
-
-###### Percolation Theory and Random Resistor Networks
-
-Percolation theory serves as a fundamental model for understanding connectivity in disordered systems. I investigate geometric and transport properties near the percolation threshold, including cluster statistics and scaling laws (Stauffer & Aharony, *Introduction to Percolation Theory*, 1994). My studies extend to random resistor networks, where I analyze effective conductivity and transport exponents, addressing questions relevant to materials science and porous media. Currently I am studying transport properties on special lattices which are away from percolation threshold and have hyperuniformity. Hyperuniformity describes a class of disordered systems with suppressed density fluctuations at large scales, a topic of growing interest due to its implications for novel material properties and wave propagation control (Torquato & Stillinger, Phys. Rev. E, 2003). My research explores the structural characterization and classification of hyperuniform states, and their potential realizations in both equilibrium and nonequilibrium systems.
-
-![Current On Random Resistor Network](https://github.com/user-attachments/assets/bf83828b-670d-4406-843f-8bdc8ac8335e)
-
-*Figure: Spatial and spectral characteristics of voltage and current distributions in a random resistor network: (top row) voltage $V_{xy}$, current $I_{xy}$, and power spectral density $\log(1 + I(k_x, k_y)^2)$ on a large scale; (bottom row) corresponding data on a smaller spatial and frequency scale. The color scales highlight the spatial heterogeneity and frequency-dependent features emerging from the randomness of the resistor network.*
-
------
+<p style="text-align: center;"><em>Combined caption describing both GIFs.</em></p>
 
 
 
+**References**
+
+1. D. Stauffer & A. Aharony, *Introduction to Percolation Theory* (Taylor & Francis, 1994).
+2. P. Dean, *Rev. Mod. Phys.* **44**, 127 (1972).
+3. S. Havlin & D. Ben-Avraham, *Diffusion and Reactions in Fractals and Disordered Systems* (Cambridge, 2002).
+4. Dhar, D., *Percolation and self-organized criticality* (BSSP lectures).
+5. B. Pal & D. Dhar, *Scaling of the variance of conductance with system size in random resistor networks* (In preparation).
 
 
+## B. Turbulence and Fluid Dynamics
+
+I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS-TIFR). Turbulence is inherently complex, and I focus on shell models and Navier–Stokes–Voigt regularization as well as Euler Voigt regularization to understand energy cascades and intermittency. Using models like SABRA and GOY, I examine how regularization affects scaling and intermittency corrections, complementing phenomenological ideas such as the multifractal model. This work connects mathematical regularization with physical features of turbulence and may inform studies of geophysical flows and two-dimensional turbulence in the future to my level of understanding.
+
+**References**
+
+1. U. Frisch, *Turbulence: The Legacy of A.N. Kolmogorov* (Cambridge, 1995).
+2. Davidson, P.A., *Turbulence: An Introduction for Scientists and Engineers* (Oxford, 2004).
+3. Biferale, L., *Annual Review of Fluid Mechanics* **35**, 441 (2003): *Shell models of energy cascade in turbulence*.
+4. Ray, S.S. et al., *Turbulence, intermittency, and shell models* (Google Scholar).
+5. A. Kankaria, B. Pal, S.S. Ray, *A shell model study of Navier–Stokes–Voigt model* (In progress).
+
+
+----
 
 
 ### Calendar (Autumn 2025)
