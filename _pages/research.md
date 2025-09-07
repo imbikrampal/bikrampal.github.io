@@ -19,15 +19,15 @@ My research in statistical physics explores emergent phenomena in disordered sys
 
   <img src="https://github.com/user-attachments/assets/f676123a-8556-4dd4-a08a-95cde6eef574" 
        alt="GIF 1" 
-       width="400" height="400" />
+       width="300" height="300" />
 
   <img src="https://github.com/user-attachments/assets/b2298c90-0ed4-4511-8da9-b584b09dbc90" 
        alt="GIF 2" 
-       width="400" height="400" />
+       width="300" height="300" />
 
 </div>
 
-<p style="text-align: center;"><em>Combined caption describing both GIFs.</em></p>
+<p style="text-align: center;"><em>Visualization of bond percolation, a simple model for connectivity in random systems. Imagine a lattice where each link (bond) is kept with probability p and removed with probability (1–p). On the left (with p = 0.51), which is slightly above the critical threshold (p_c ≈ 0.5), the black bonds suddenly join to form a giant cluster that spans across the system. On the right, the GIF shows the system as p is varied continuously: when p is small, only tiny isolated clusters appear (different colors); as p increases toward the threshold, clusters grow and begin to merge; once p crosses the critical point, a large connected component emerges. This illustrates a fundamental idea of percolation: a sharp transition from a disconnected phase to a connected phase as the probability p passes through its critical value.</em></p>
 
 **References**
 
@@ -41,6 +41,14 @@ My research in statistical physics explores emergent phenomena in disordered sys
 ## B. Turbulence and Fluid Dynamics
 
 I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS-TIFR). Turbulence is inherently complex, and I focus on shell models and Navier–Stokes–Voigt regularization as well as Euler Voigt regularization to understand energy cascades and intermittency. Using models like SABRA and GOY, I examine how regularization affects scaling and intermittency corrections, complementing phenomenological ideas such as the multifractal model. This work connects mathematical regularization with physical features of turbulence and may inform studies of geophysical flows and two-dimensional turbulence in the future to my level of understanding.
+
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+
+  <img src="https://github.com/user-attachments/assets/67b74197-b4c0-48d2-b6c6-d068cd485df9" 
+       alt="GIF 1" 
+       width="300" height="300" />
+       
+</div>
 
 **References**
 
