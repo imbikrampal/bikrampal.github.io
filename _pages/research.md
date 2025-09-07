@@ -21,7 +21,7 @@ My research in statistical physics explores emergent phenomena in disordered sys
        alt="GIF 1" 
        width="400" height="400" />
 
-  <img src="https://github.com/user-attachments/assets/1c49b11d-cdfb-4f98-b930-bf24776bf09f" 
+  <img src="https://commons.wikimedia.org/wiki/File:Percolation_p%3D0.51.gif" 
        alt="GIF 2" 
        width="400" height="400" />
 
