@@ -17,7 +17,7 @@ My research in statistical physics explores emergent phenomena in disordered sys
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
 
-  <img src="https://github.com/user-attachments/assets/caa522b8-12c8-4ad2-af36-b4a1788de1ef" 
+  <img src="https://github.com/user-attachments/assets/1c49b11d-cdfb-4f98-b930-bf24776bf09f" 
        alt="GIF 1" 
        width="400" height="400" />
 
