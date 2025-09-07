@@ -46,7 +46,7 @@ I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS
 
   <img src="https://github.com/user-attachments/assets/8938e6bf-97e4-4651-8959-b51f7af96795" 
        alt="GIF 1" 
-       width="300" height="300" />
+       width="600" height="300" />
        
 </div>
 
