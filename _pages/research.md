@@ -44,11 +44,14 @@ I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
 
-  <img src="https://github.com/user-attachments/assets/67b74197-b4c0-48d2-b6c6-d068cd485df9" 
+  <img src="https://github.com/user-attachments/assets/8938e6bf-97e4-4651-8959-b51f7af96795" 
        alt="GIF 1" 
        width="300" height="300" />
        
 </div>
+
+<p style="text-align: center;"><em>Pseudo-Spectral simulation of 2D turbulence in bi-periodic domain (512x512) at Re=2000. Initial vorticity field from J. McWilliams (1984) "The emergence of isolated coherent vortices in turbulent flow" (JFM-146). Courtesy : Marin Lauber.</em></p>
+
 
 **References**
 
@@ -59,7 +62,7 @@ I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS
 5. A. Kankaria, B. Pal, S.S. Ray, *A shell model study of Navier–Stokes–Voigt model* (In progress).
 
 
-----
+------
 
 
 ### Calendar (Autumn 2025)
