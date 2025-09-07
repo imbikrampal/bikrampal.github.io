@@ -21,15 +21,13 @@ My research in statistical physics explores emergent phenomena in disordered sys
        alt="GIF 1" 
        width="400" height="400" />
 
-  <img src="https://commons.wikimedia.org/wiki/File:Percolation_p%3D0.51.gif" 
+  <img src="https://github.com/user-attachments/assets/b2298c90-0ed4-4511-8da9-b584b09dbc90" 
        alt="GIF 2" 
        width="400" height="400" />
 
 </div>
 
 <p style="text-align: center;"><em>Combined caption describing both GIFs.</em></p>
-
-
 
 **References**
 
