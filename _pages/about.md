@@ -12,7 +12,9 @@ I’m Bikram, a third-year BS-MS student at Department of Physical Sciences, Ind
 Off the clock, I’m an FC Barcelona devotee and amateur flautist, a devoted rosogolla hunter, and a fiend for spirited debates—whether about football, philosophy, or the quirkiest integrals. I regularly update this site with notes from my undergraduate courses, which you’re welcome to explore. To chat about drop me a line at **[bikram25052005@gmail.com](mailto:bikram25052005@gmail.com)**.
 
 ----
-For CV drop an email!
+<a href="/short_cv.pdf" target="_blank" style="padding:8px 12px; background-color:#007BFF; color:white; text-decoration:none; border-radius:4px;">
+  Here is my short CV.
+</a>
 
 
 
