@@ -46,25 +46,24 @@ I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 20px;
 ">
 
-  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+  <video style="width:300px; height:300px; object-fit:cover;" controls>
     <source src="turbulence_128_Re5000_vort.mp4" type="video/mp4">
   </video>
 
-  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+  <video style="width:300px; height:300px; object-fit:cover;" controls>
     <source src="turbulence_128_Re5000_velo.mp4" type="video/mp4">
   </video>
 
-  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+  <video style="width:300px; height:300px; object-fit:cover;" controls>
     <source src="turbulence_128_Re5000_dissi.mp4" type="video/mp4">
   </video>
 
 </div>
 
-
-<p style="text-align: center;"><em>This a pseudo spectral DNS of turbulence in 2D with grid size 128 which is quiet low (but that's the maximum my PC can do). From left we have the vorticity field, velocity field and the viscous dissipation field.</em></p>
+<p style="text-align: center;"><em>This a pseudo spectral DNS of turbulence in 2D with 5000 Reynolds number in 128 grid size which is quiet low (but that's the maximum my PC can do). From left we have the vorticity field, velocity field and the viscous dissipation field.</em></p>
 
 
 **References**
