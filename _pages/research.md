@@ -42,25 +42,10 @@ My research in statistical physics explores emergent phenomena in disordered sys
 
 I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS-TIFR). Turbulence is inherently complex, and I focus on shell models and Navier–Stokes–Voigt regularization as well as Euler Voigt regularization to understand energy cascades and intermittency. Using models like SABRA and GOY, I examine how regularization affects scaling and intermittency corrections, complementing phenomenological ideas such as the multifractal model. This work connects mathematical regularization with physical features of turbulence and may inform studies of geophysical flows and two-dimensional turbulence in the future to my level of understanding.
 
-<div style="
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-">
-
-  <video style="width:300px; height:300px; object-fit:cover;" controls>
-    <source src="turbulence_128_Re5000_vort.mp4" type="video/mp4">
-  </video>
-
-  <video style="width:300px; height:300px; object-fit:cover;" controls>
-    <source src="turbulence_128_Re5000_velo.mp4" type="video/mp4">
-  </video>
-
-  <video style="width:300px; height:300px; object-fit:cover;" controls>
-    <source src="turbulence_128_Re5000_dissi.mp4" type="video/mp4">
-  </video>
-
+<div style="display:flex; gap:15px;">
+  <video src="turbulence_128_Re5000_dissi.mp4" width="300" height="300" controls></video>
+  <video src="turbulence_128_Re5000_velo.mp4"  width="300" height="300" controls></video>
+  <video src="turbulence_128_Re5000_vort.mp4"  width="300" height="300" controls></video>
 </div>
 
 <p style="text-align: center;"><em>This a pseudo spectral DNS of turbulence in 2D with 5000 Reynolds number in 128 grid size which is quiet low (but that's the maximum my PC can do). From left we have the vorticity field, velocity field and the viscous dissipation field.</em></p>
