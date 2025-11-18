@@ -42,15 +42,29 @@ My research in statistical physics explores emergent phenomena in disordered sys
 
 I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS-TIFR). Turbulence is inherently complex, and I focus on shell models and Navier–Stokes–Voigt regularization as well as Euler Voigt regularization to understand energy cascades and intermittency. Using models like SABRA and GOY, I examine how regularization affects scaling and intermittency corrections, complementing phenomenological ideas such as the multifractal model. This work connects mathematical regularization with physical features of turbulence and may inform studies of geophysical flows and two-dimensional turbulence in the future to my level of understanding.
 
-<div style="display: flex; justify-content: center; align-items: center; gap: 10px;">
+<div style="
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+">
 
-  <img src="https://github.com/user-attachments/assets/8938e6bf-97e4-4651-8959-b51f7af96795" 
-       alt="GIF 1" 
-       width="600" height="300" />
-       
+  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+    <source src="turbulence_128_Re5000_vort.mp4" type="video/mp4">
+  </video>
+
+  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+    <source src="turbulence_128_Re5000_velo.mp4" type="video/mp4">
+  </video>
+
+  <video style="width: 250px; height: 250px; object-fit: cover;" controls>
+    <source src="turbulence_128_Re5000_dissi.mp4" type="video/mp4">
+  </video>
+
 </div>
 
-<p style="text-align: center;"><em>Pseudo-Spectral simulation of 2D turbulence in bi-periodic domain (512x512) at Re=2000. Initial vorticity field from J. McWilliams (1984) "The emergence of isolated coherent vortices in turbulent flow" (JFM-146). Courtesy : Marin Lauber.</em></p>
+
+<p style="text-align: center;"><em>This a pseudo spectral DNS of turbulence in 2D with grid size 128 which is quiet low (but that's the maximum my PC can do). From left we have the vorticity field, velocity field and the viscous dissipation field.</em></p>
 
 
 **References**
