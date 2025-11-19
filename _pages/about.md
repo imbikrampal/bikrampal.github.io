@@ -15,7 +15,7 @@ Off the clock, I’m an FC Barcelona devotee and amateur flautist, a devoted ros
 
 <style>
 .news-bar {
-    background: linear-gradient(90deg, #ffdd57, #ffa500);
+    background: linear-gradient(90deg, #fffefc, #ffa500);
     padding: 10px 15px;
     border-radius: 6px;
     margin-bottom: 20px;
