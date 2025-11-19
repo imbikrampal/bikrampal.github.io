@@ -57,7 +57,7 @@ Off the clock, I’m an FC Barcelona devotee and amateur flautist, a devoted ros
     <div class="dot"></div>
     New blog post: 
     <a href="https://imbikrampal.github.io/bikrampal.github.io//posts/2025/11/blog-post-7/" target="_blank">
-        Click here to read
+        Pseudo Spectral DNS of 2D Turbulence
     </a>
 </div>
 
