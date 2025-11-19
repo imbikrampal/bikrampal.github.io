@@ -45,15 +45,15 @@ I also study turbulence and fluid dynamics with Prof. Samriddhi Sankar Ray (ICTS
 
 <div style="display: flex; align-items: center; gap: 15px;">
 
-  <img src="turbulence_128_Re5000_vort.gif" 
+  <img src="https://github.com/user-attachments/assets/7dd0e4a5-99d5-4665-a12c-2442cd0c04a7" 
        alt="GIF 1" 
        width="300" height="300" />
 
-  <img src="turbulence_128_Re5000_velo.gif" 
+  <img src="https://github.com/user-attachments/assets/2da32b7a-2543-4133-9dbb-2edefd5460de" 
        alt="GIF 2" 
        width="300" height="300" />
        
-   <img src="turbulence_128_Re5000_dissi.gif" 
+   <img src="https://github.com/user-attachments/assets/31735bce-e200-44b7-a888-2a8b791f8b74" 
        alt="GIF 2" 
        width="300" height="300" />
 
