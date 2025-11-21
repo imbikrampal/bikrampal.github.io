@@ -2,7 +2,7 @@
 # Basic Site Settings
 # ----------------------------------------
 locale: "en-US"
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 title: "Bikram Pal"
 title_separator: "-"
 name: &name "Bikram Pal"
