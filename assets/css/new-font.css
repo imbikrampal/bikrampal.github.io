@@ -1,3 +1,16 @@
+html body,
+html body *,
+html body a,
+html body p,
+html body li,
+html body span,
+html body div,
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+  font-family: "Computer Modern Serif", serif !important;
+  font-weight: 450;
+}
+
+
 /* Force Computer Modern everywhere */
 html, body,
 h1, h2, h3, h4, h5, h6,
