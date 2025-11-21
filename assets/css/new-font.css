@@ -1,46 +1,36 @@
+/* Apply Computer Modern everywhere, with simulated medium weight */
 html body,
-html body *,
-html body a,
-html body p,
-html body li,
-html body span,
-html body div,
-html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+html body * {
   font-family: "Computer Modern Serif", serif !important;
-  font-weight: 450;
+
+  /* CM only has 400 (regular) and 700 (bold).
+     0.3px stroke simulates weight ~500–550 visually. */
+  font-weight: 400 !important;
+  -webkit-text-stroke: 0.3px;
+  text-rendering: optimizeLegibility;
 }
 
-
-/* Force Computer Modern everywhere */
-html, body,
-h1, h2, h3, h4, h5, h6,
-.site-title, .site-title a,
-.site-nav, .site-nav a,
-.sidebar, .sidebar a,
-.page__meta, .page__meta a,
-.page__footer, .page__footer a,
-a, p, li, span, div {
+/* Headings: real bold (CM includes 700) but no stroke */
+h1, h2, h3, h4, h5, h6 {
   font-family: "Computer Modern Serif", serif !important;
+  font-weight: 700 !important;
+  -webkit-text-stroke: 0 !important;
 }
 
-/* Slightly bolder normal text */
+/* Body text spacing */
 body {
   font-size: 18px;
   line-height: 1.55;
-  font-weight: 450;
 }
 
-/* Headings – modest emphasis */
-h1, h2, h3 {
-  font-weight: 550;
-}
-
-/* Code blocks */
+/* Code blocks use CM Typewriter */
 code, pre {
   font-family: "Computer Modern Typewriter", monospace !important;
+  font-weight: 400 !important;
+  -webkit-text-stroke: 0 !important;
 }
 
-/* Paragraph spacing */
+/* Paragraph spacing for better readability */
 p {
   margin-bottom: 1.1em;
 }
