@@ -2,13 +2,13 @@
 # Basic Site Settings
 # ----------------------------------------
 locale: "en-US"
-theme: minima
+theme: "minimal-mistakes-jekyll"
 title: "Bikram Pal"
 title_separator: "-"
 name: &name "Bikram Pal"
 description: &description "Statistical Physics and Turbulence"
-url: https://imbikrampal.github.io/bikrampal.github.io/
-baseurl: ""
+url: "https://imbikrampal.github.io"
+baseurl: "/bikrampal.github.io"
 repository: "imbikrampal.github.io/bikrampal.github.io"
 
 # ----------------------------------------
@@ -44,7 +44,7 @@ author:
   scopus:
 
   # Code & Dev
-  github: "imbikrampal.github.io"
+  github: "imbikrampal"
   kaggle:
   stackoverflow:
 
