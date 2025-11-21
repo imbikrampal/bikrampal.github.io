@@ -1,3 +1,18 @@
-<!-- start custom footer snippets -->
-<a href="/sitemap/">Sitemap</a>
-<!-- end custom footer snippets -->
+<!-- start custom footer -->
+<div style="text-align:center; padding:10px;">
+
+  <a href="{{ '/sitemap.xml' | relative_url }}">Sitemap</a>
+  <br>
+
+  Follow: 
+  <a href="https://github.com/imbikrampal" target="_blank">GitHub</a>
+
+  <br>
+
+  © {{ site.time | date: "%Y" }} {{ site.author.name }}
+  <br>
+
+  Site last updated {{ site.time | date: "%Y-%m-%d" }}
+
+</div>
+<!-- end custom footer -->
