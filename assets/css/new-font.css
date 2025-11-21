@@ -1,37 +1,28 @@
-/* Apply Computer Modern everywhere */
-html body,
-html body * {
-  font-family: "Computer Modern Serif", serif !important;
+/* Apply Computer Modern font everywhere */
+html, body, body *, p, li, a, div, span {
+  font-family: "CMU Serif", serif !important;
+  font-weight: 400 !important;
 }
 
-/* Normal text settings */
-body {
-  font-size: 18px;
-  line-height: 1.55;
-  font-weight: 400;     /* CM regular */
-}
-
-/* Bold text should use real bold (700) */
-b,
-strong,
-.bold,
-.page__content strong {
+/* Bold text should be true bold */
+strong, b {
   font-weight: 700 !important;
 }
 
-/* Headings should also use real bold */
+/* Headings use bold CMU */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Computer Modern Serif", serif !important;
+  font-family: "CMU Serif", serif !important;
   font-weight: 700 !important;
 }
 
 /* Code blocks */
 code, pre {
-  font-family: "Computer Modern Typewriter", monospace !important;
+  font-family: "CMU Typewriter", monospace !important;
   font-weight: 400 !important;
 }
 
-/* Paragraph spacing */
-p {
-  margin-bottom: 1.1em;
+/* Body spacing */
+body {
+  font-size: 18px;
+  line-height: 1.55;
 }
