@@ -1,36 +1,36 @@
-/* Apply Computer Modern everywhere, with simulated medium weight */
+/* Simulate medium weight for all Computer Modern text */
 html body,
 html body * {
   font-family: "Computer Modern Serif", serif !important;
-
-  /* CM only has 400 (regular) and 700 (bold).
-     0.3px stroke simulates weight ~500–550 visually. */
   font-weight: 400 !important;
-  -webkit-text-stroke: 0.3px;
-  text-rendering: optimizeLegibility;
+
+  /* Fake mid-weight using uniform shadows */
+  filter: drop-shadow(0.3px 0 0 #000)
+          drop-shadow(-0.3px 0 0 #000)
+          drop-shadow(0 0.3px 0 #000)
+          drop-shadow(0 -0.3px 0 #000);
 }
 
-/* Headings: real bold (CM includes 700) but no stroke */
+/* Headings: real bold, no fake shadow */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Computer Modern Serif", serif !important;
+  filter: none !important;
   font-weight: 700 !important;
-  -webkit-text-stroke: 0 !important;
 }
 
-/* Body text spacing */
+/* Code blocks: use CM typewriter, no fake bolding */
+code, pre {
+  filter: none !important;
+  font-family: "Computer Modern Typewriter", monospace !important;
+  font-weight: 400 !important;
+}
+
+/* Body size + spacing */
 body {
   font-size: 18px;
   line-height: 1.55;
 }
 
-/* Code blocks use CM Typewriter */
-code, pre {
-  font-family: "Computer Modern Typewriter", monospace !important;
-  font-weight: 400 !important;
-  -webkit-text-stroke: 0 !important;
-}
-
-/* Paragraph spacing for better readability */
+/* Paragraph spacing */
 p {
   margin-bottom: 1.1em;
 }
