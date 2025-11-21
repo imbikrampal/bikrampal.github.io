@@ -1,28 +1,46 @@
-/* Apply Computer Modern font everywhere */
-html, body, body *, p, li, a, div, span {
-  font-family: "CMU Serif", serif !important;
-  font-weight: 400 !important;
+html body,
+html body *,
+html body a,
+html body p,
+html body li,
+html body span,
+html body div,
+html body h1, html body h2, html body h3, html body h4, html body h5, html body h6 {
+  font-family: "Computer Modern Serif", serif !important;
+  font-weight: 400;
 }
 
-/* Bold text should be true bold */
-strong, b {
-  font-weight: 700 !important;
+
+/* Force Computer Modern everywhere */
+html, body,
+h1, h2, h3, h4, h5, h6,
+.site-title, .site-title a,
+.site-nav, .site-nav a,
+.sidebar, .sidebar a,
+.page__meta, .page__meta a,
+.page__footer, .page__footer a,
+a, p, li, span, div {
+  font-family: "Computer Modern Serif", serif !important;
 }
 
-/* Headings use bold CMU */
-h1, h2, h3, h4, h5, h6 {
-  font-family: "CMU Serif", serif !important;
-  font-weight: 700 !important;
+/* Slightly bolder normal text */
+body {
+  font-size: 18px;
+  line-height: 1.55;
+  font-weight: 400;
+}
+
+/* Headings – modest emphasis */
+h1, h2, h3 {
+  font-weight: 700;
 }
 
 /* Code blocks */
 code, pre {
-  font-family: "CMU Typewriter", monospace !important;
-  font-weight: 400 !important;
+  font-family: "Computer Modern Typewriter", monospace !important;
 }
 
-/* Body spacing */
-body {
-  font-size: 18px;
-  line-height: 1.55;
+/* Paragraph spacing */
+p {
+  margin-bottom: 1.1em;
 }
