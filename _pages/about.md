@@ -29,9 +29,9 @@ Off the clock, I’m an FC Barcelona devotee and amateur flautist, a devoted ros
   </li>
 
   <li>
-    <strong>Nov 2025:</strong>
+    <strong>17 Nov 2025:</strong>
     <a href="https://imbikrampal.github.io/bikrampal.github.io/posts/2025/11/blog-post-7/" target="_blank">
-      Pseudo-Spectral DNS of 2D Turbulence
+      New Blog Posted : Pseudo-Spectral DNS of 2D Turbulence
     </a>
   </li>
 </ul>
