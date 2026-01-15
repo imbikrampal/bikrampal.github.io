@@ -13,59 +13,48 @@ Off the clock, I’m an FC Barcelona devotee and amateur flautist, a devoted ros
 
 ----
 
+<hr>
+
+<h2>News</h2>
+
+<ul class="news-list">
+  <li>
+    <strong>15 Jan 2026:</strong>
+    Accepted to the <em>Max Planck “Matter to Life”</em> fully funded internship programme as one of the top 10 students globally.
+  </li>
+
+  <li>
+    <strong>12 Dec 2025:</strong>
+    Received a fully funded internship offer from the <em>Okinawa Institute of Science and Technology (OIST), Japan</em>, in the Complex Fluids and Flows Unit.
+  </li>
+
+  <li>
+    <strong>Nov 2025:</strong>
+    <a href="https://imbikrampal.github.io/bikrampal.github.io/posts/2025/11/blog-post-7/" target="_blank">
+      Pseudo-Spectral DNS of 2D Turbulence
+    </a>
+  </li>
+</ul>
+
 <style>
-.news-bar {
-    background: linear-gradient(90deg, #fffefc, #ffa500);
-    padding: 10px 15px;
-    border-radius: 6px;
-    margin-bottom: 20px;
-    font-weight: 600;
-    color: #000;
-    display: flex;
-    align-items: center;
-    gap: 10px;
-    animation: slideIn 0.8s ease-out;
+.news-list {
+  list-style-type: none;
+  padding-left: 0;
 }
 
-.news-bar .dot {
-    width: 10px;
-    height: 10px;
-    background: red;
-    border-radius: 50%;
-    box-shadow: 0 0 8px red;
-    animation: pulse 1.2s infinite;
+.news-list li {
+  margin-bottom: 8px;
 }
 
-@keyframes pulse {
-    0% { transform: scale(1); opacity: 1; }
-    50% { transform: scale(1.4); opacity: 0.6; }
-    100% { transform: scale(1); opacity: 1; }
-}
-
-@keyframes slideIn {
-    from { opacity: 0; transform: translateY(-8px); }
-    to { opacity: 1; transform: translateY(0); }
-}
-
-.news-bar a {
-    color: #0033aa;
-    text-decoration: underline;
+.news-list strong {
+  color: #333;
 }
 </style>
-
-<div class="news-bar">
-    <div class="dot"></div>
-    New blog post: 
-    <a href="https://imbikrampal.github.io/bikrampal.github.io//posts/2025/11/blog-post-7/" target="_blank">
-        Pseudo Spectral DNS of 2D Turbulence
-    </a>
-</div>
-
 
 
 ----
 <a href="short_cv.pdf" target="_blank" style="padding:8px 12px; background-color:#007BFF; color:white; text-decoration:none; border-radius:4px;">
-  My Short CV
+  My Short CV (Last Update Oct 2025)
 </a>
 
 
